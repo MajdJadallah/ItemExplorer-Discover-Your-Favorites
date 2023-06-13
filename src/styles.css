@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+  background-color: #f8f8f8;
+}
+#card{
+padding:2rem  2rem 4rem;
+height: 100%;
+border: none;
+}
+#list{
+width: auto;
+}
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #114E94;
+  padding: 1rem;
+  /* width: 100%; */
+  margin: 1rem 3rem;
+  border-radius: 30px;
+  text-decoration: none;
+  list-style: none;
+  padding: 0.5rem 3rem;
+}
+#nav-list>li{
+  font-weight: 600;
+
+}
+ul{
+list-style: none;
+display: flex;
+align-items: center;
+gap: 2rem;
+}
+#profile{
+width: auto;
+}
+#welcome{
+width: 100%;
+}
+.logo{
+text-align: center;
+font-family: 'Luckiest Guy', cursive;
+font-size: 1.7rem;
+}
+#main-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 3% 15%;
+}
+#search-second{
+  width: 70%;
+  margin-bottom: 2rem;
+  border-radius: 30px;
+  /*border: 2px solid #171A45;
+  */border: 3px solid #114E94;
+  padding: 0.5rem 1rem;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+#grid{
+display: flex;
+align-items: center;
+}
+#footer{
+background-color: #114E94;
+color: #fff;
+padding: 1rem 3rem;
+width: 100%;
+}
+logo{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+}
+#c{
+  color: #EB2B51;
+}
+#a {
+  color: #7F1425;
+}
+#r {
+  color: #F9BD2B;
+}
+#t {
+  color: #189FDA;
+}
+#o {
+  color: #f79744;
+}
+#oo {
+  color: #938822;
+}
+#n {
+  color: #50B145;
+}
+#ooo {
+  color: #F7941F; 
+}
+#rr {
+  color: #90489C;
+}
+#aa {
+  color: #FF2D20; 
+}
+#m {
+  color: #F09372;
+}
+#aaa {
+  color: #B3B2D7;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#header{
+  width: 100%;
+}
+#details{
+border: none;
+background-color: #189FDA;
+}
+#details:hover{
+background-color: #fff;
+border:2px solid #189FDA;
+color: #114E94;
+}
+#title{
+color: #114E94;
+margin-bottom: 2rem;
+text-decoration: none;
+font-weight: 700;
+font-size: 1.5rem;
+}
+#details-card>img{
+  height: 300px;
+  border-radius: 100% ;
+  transition: transform .2s;
+}
+
+img:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#details-card>p{
+width: 35%;
+text-align: center;
+}
+#details-card>h2{
+color: #EB2B51;
+font-weight:600 ;
+}
+#card-col{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#card{
+width: 100%;
+}
+#card>img{ 
+width: 50%; 
+height: 300px;
+border-radius:100%; 
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+margin-bottom: 3rem;
+}
+p{
+width: 70%;
+margin-bottom: 1.5rem;
+}
+#desc{
+font-size: 1.2rem;
+font-weight: 600;
+color: #114E94;
+}
+#year{
+font-size: 1.2rem;
+font-weight: 600;
+color: #114E94;
+}
+h2{
+margin-bottom: 1rem;
+}
+.home{
+text-decoration: none;
+color: #114E94;
+font-weight: 600;
+}
+.Home{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
