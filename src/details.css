@@ -19,9 +19,10 @@ height: 75vh;
 padding: 0 14%;
 }
 #watch{
-background-color: #114E94;
-color: #fff;
-padding: .9rem ; border: none; border-radius:20px; 
+background-color: #F7941F;
+color: #ffffff;
+border: 2px solid #949494;
+padding: .7rem ; border: none; border-radius:20px; 
 }
 p{
 width: 70%;
