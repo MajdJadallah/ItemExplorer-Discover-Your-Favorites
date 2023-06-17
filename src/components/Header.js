@@ -5,12 +5,10 @@ function Header() {
     <div id='header'>
       <>
         <Link to='/' id="nav">
-            <li className="logo"><span id='c'>C</span><span id='a'>A</span><span id='r'>R</span><span id='t'>t</span>
-            <span id='o'>o</span><span id='oo'>o</span><span id='n'>n</span><span id='ooo'>o</span>
-            <span id='rr'>r</span><span id='aa'>a</span><span id='m'>m</span><span id='aaa'>a</span>
+            <li className="logo"><span id='c'>CART</span><span id='log'>oon-roma</span>
             </li>
             <li >
-                <ul id='nav-list'>
+                <ul id='nav-list'> 
                     <Link to='/' className='home'>Home</Link>
                     <li>About us</li>
                     <li>Contact us</li>

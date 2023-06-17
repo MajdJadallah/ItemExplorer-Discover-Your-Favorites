@@ -4,7 +4,7 @@ body{
   background-color: #f8f8f8;
 }
 #card{
-padding:2rem  2rem 4rem;
+padding:2rem   0;
 height: 100%;
 border: none;
 }
@@ -15,26 +15,23 @@ width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
-  color: #fff;
-  padding: 1rem;
-  /* width: 100%; */
-  margin: 1rem 3rem;
-  border-radius: 30px;
+  background-color: #024f62;
+  padding: 2rem 3rem ;
   text-decoration: none;
   list-style: none;
-  padding: 0.5rem 3rem;
+  padding: 1rem 3rem;
 }
 #nav-list>li{
-  font-weight: 600;
-
+font-weight: 600;
 }
 ul{
 list-style: none;
 display: flex;
 align-items: center;
 gap: 6rem;
-color: #F7941F;
+color: #fff;
+font-size: 1.2rem;
+font-weight: 600;
 }
 #profile{
 width: auto;
@@ -51,19 +48,21 @@ font-size: 1.7rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 3% 15%;
+padding: 0 7%;
 }
 #search-second{
   width: 70%;
   margin-bottom: 2rem;
-  border-radius: 30px;
-   border: 2px solid #575757;
-  background-color: #000;
+  background-color: #fff;
   padding: 0.5rem 1rem;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  color: #fff;
+}
+::placeholder{
+color: #024152;
+font-weight: 600;
+}
+.row-card{
+  justify-content: space-between;
 }
 #grid{
 display: flex;
@@ -71,88 +70,49 @@ align-items: center;
 gap: 6rem;
 }
 #footer{
-background-color: #000;
+background-color: #024F62;
 color: #fff;
 padding: 1rem 3rem;
 width: 100%;
 }
-logo{
+.Home{
   font-family: 'Luckiest Guy', cursive;
   font-size: 2rem;
+  color: #fff;
+}
+#log{
+color: #fff;
 }
 #c{
-  color: #EB2B51;
-}
-#a {
-  color: #7F1425;
-}
-#r {
-  color: #F9BD2B;
-}
-#t {
-  color: #189FDA;
-}
-#o {
-  color: #f79744;
-}
-#oo {
-  color: #938822;
-}
-#n {
-  color: #50B145;
-}
-#ooo {
-  color: #F7941F; 
-}
-#rr {
-  color: #90489C;
-}
-#aa {
-  color: #FF2D20; 
-}
-#m {
-  color: #F09372;
-}
-#aaa {
-  color: #B3B2D7;
+  color: #C1181D;
 }
 main{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 #header{
   width: 100%;
 }
-/* #details{
-border: none;
-background-color: #189FDA;
-}
-#details:hover{
-background-color: #fff;
-border:2px solid #189FDA;
-color: #114E94;
-}  */
 #title{
-color: #949494;
+color: #fff;
 margin-bottom: 2rem;
 text-decoration: none;
 font-weight: 700;
 font-size: 1.5rem;
 }
+#card-body>#title{
+  transition: transform .2s;
+}
 #details-card>img{
   height: 300px;
   border-radius: 100% ;
-  transition: transform .2s;
 }
 
-img:hover{
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+#card-body>#title:hover{
+transform: scale(1.1);
 }
 #details-card>p{
 width: 35%;
@@ -169,17 +129,10 @@ font-weight:600 ;
   flex-direction: column;
   text-align: center;
 }
-::placeholder{
-color: #fff;
-}
 #card{
 width: 100%;
 }
-#card>img{ 
-height: 300px;
-border-radius:100%; 
-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-margin-bottom: 3rem;
+#card>img{ height: 350px; box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; margin-bottom: 2rem; width: 250px; border: radius 15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ;
 }
 p{
 width: 70%;
@@ -189,27 +142,31 @@ color: #949494;
 #desc{
 font-size: 1.2rem;
 font-weight: 600;
-color: #F7941F;
+color: #C1181D;
 }
 #year{
 font-size: 1.2rem;
 font-weight: 600;
-color: #F7941F;
+color: #C1181D;
 }
 h2{
 margin-bottom: 1rem;
-color: #F7941F;
+color: #C1181D;
 }
 .home{
 text-decoration: none;
-color: #F7941F;
+color: #fff;
 font-weight: 600;
 }
-.Home{
-  text-decoration: none;
-  color: #F7941F;
-  font-weight: 600;
-}
 main{
-background-color: #1b1b1b;
+background-color: #024152;
+}
+#welcome-imge{
+height: 80vh;
+}
+
+#majd{
+color: #fff;
+padding: 0 8%;
+margin-top: 5rem;
 }
