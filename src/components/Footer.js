@@ -1,19 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
     <div id='footer'>
-    <div id='grid'>
-    <div className="logo"><span id='c'>CART</span><span id='log'>oon-roma</span>
-            </div>
-    <ul id='footerList'>
-      <Link to='/' className='home'>Home</Link>
-      <li>About Us</li>
-      <li>Contact</li>
-    </ul>
-    </div>
+      <h1><span>B</span>ook-area</h1>
+      <ul>
+        <li>Home</li>
+        <li>Shop</li>
+        <li>E-Books</li>
+      </ul>
+      <p>2023@copyRight</p>
     </div>
   )
 }
 
-export default Footer;
+export default Footer
